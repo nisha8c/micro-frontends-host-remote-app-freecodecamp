@@ -20,7 +20,7 @@ const RemoteWrapperComponent = () => {
             <div className="mt-4">
                 <Suspense fallback={<LoadingSpinner />}>
                 <RemoteButton
-                    text="Remote Button"
+                    text="Remote Button present in host"
                     onClick={() =>
                     alert(
                         "Well done you've imported the MF remote component successfully"
